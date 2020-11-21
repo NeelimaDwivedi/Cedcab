@@ -1,0 +1,65 @@
+#wrapper {
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 600px) {
+    .display-4 {
+        font-size: 15px;
+    }
+}
+
+
+/* 
+@media(max-width: 600px) {
+    .footer-content {
+        padding-left: 20px;
+    }
+    .footer-logo {
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+} */
+
+@media(max-width: 600px) {
+    .display-6 {
+        font-size: 11px;
+    }
+}
+
+.diff {
+    background-color: yellow;
+}
+
+.diff1 {
+    background-color: #ccff33;
+}
+
+#nav-btn,
+#submit,
+#form span {
+    background-color: #ccff33;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#form h5 small {
+    display: block;
+}
+
+#form {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+form select {
+    -webkit-appearance: none;
+}
